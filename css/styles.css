@@ -1,0 +1,202 @@
+/* Elements */
+h1, h2, h3{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+}
+
+body{
+  text-align: center;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+a{
+  color:inherit;
+}
+
+/* color-sections */
+.colored-section{
+  background-color: #FF5D5D;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+}
+
+
+
+/* Title  */
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  margin-top: 4rem;
+  position: absolute;
+
+  left: 6.25rem;
+}
+
+.display-caption{
+  font-size: 3rem;
+}
+
+#title{
+  text-align: left;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+.display-banner{
+  padding-top: 4rem;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  color: #F2F2F2;
+}
+
+.download-buttons{
+  margin: 5% 3% 5% 0;
+
+}
+
+.custom-class{
+  position: relative;
+}
+
+
+/* features */
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+
+}
+
+.feature-text{
+  padding: 5%;
+}
+.feature-points{
+  font-size: 1.4rem;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.125rem;
+}
+
+.icon:hover{
+  color: #FF5D5D;
+
+}
+
+/* testimonial section */
+
+#testimonials{
+  background-color: #F87474;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-review{
+  color: white;
+  font-size: 3rem;
+}
+
+/* Press section */
+
+#press{
+  padding-bottom: 3%;
+  background-color: #F87474;
+}
+
+.press-images{
+  width: 13%;
+  margin: 20px 20px 50px;
+
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.sign-up-button{
+  background-color: #3F4E4F;
+}
+
+.plan-name{
+  font-size: 1.4rem;
+}
+
+.pricing-headings{
+  font-size: 3rem
+}
+
+.card-box{
+  margin-top: 50px;
+}
+
+/* CTA */
+
+#cta{
+  padding: 7% 15%;
+}
+
+.cta-text{
+
+  font-size: 3.5rem;
+}
+
+.cta-buttons{
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+#footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.footer-icons{
+  margin: 20px;
+}
+
+.hover-icon:hover{
+  color: #FF5D5D;
+}
+
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
